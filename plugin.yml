@@ -1,0 +1,8 @@
+name: LinearBullet
+main: dor.linear.Main
+version: 
+api: ["1.0.0"]
+
+load: POSTWORLD
+author: dormouse
+description: Linear Trajectory of Projectile in Nukkit
