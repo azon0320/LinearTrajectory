@@ -1,6 +1,6 @@
 name: LinearBullet
 main: dor.linear.Main
-version: 
+version: "1.0.0"
 api: ["1.0.0"]
 
 load: POSTWORLD
