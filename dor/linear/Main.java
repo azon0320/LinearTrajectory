@@ -1,8 +1,15 @@
 package dor.linear;
 
+/**
+  * Linear Trajectory Source Code
+  * @author Dormice
+  */
+   
+
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.entity.ProjectileLaunchEvent;
+import cn.nukkit.event.EventListener;
 import cn.nukkit.nbt.tag.CompoundTag;
 import cn.nukkit.level.format.FullChunk;
 import cn.nukkit.entity.Entity;
@@ -42,6 +49,7 @@ public final class Main extends PluginBase implements Listener{
   public void onEnable(){
     getServer().getPluginManager().registerEvents(this, this);
     getLogger().info("Linear Plugin Enabled!");
+    Main.instance  =this;
   }
 
   @Override
